@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		102175691E4AA555001F426A /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102175681E4AA555001F426A /* PhotoDetailsViewController.swift */; };
+		1021756B1E4ABC49001F426A /* InfiniteScrollActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1021756A1E4ABC49001F426A /* InfiniteScrollActivityView.swift */; };
 		108748841E41713A00BF29A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108748831E41713A00BF29A0 /* AppDelegate.swift */; };
 		108748891E41713A00BF29A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108748871E41713A00BF29A0 /* Main.storyboard */; };
 		1087488B1E41713A00BF29A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1087488A1E41713A00BF29A0 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		102175681E4AA555001F426A /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
+		1021756A1E4ABC49001F426A /* InfiniteScrollActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollActivityView.swift; sourceTree = "<group>"; };
 		108748801E41713A00BF29A0 /* codepath-lab1-tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "codepath-lab1-tumblr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		108748831E41713A00BF29A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		108748881E41713A00BF29A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +49,7 @@
 		108748771E41713A00BF29A0 = {
 			isa = PBXGroup;
 			children = (
+				1021756A1E4ABC49001F426A /* InfiniteScrollActivityView.swift */,
 				108748821E41713A00BF29A0 /* codepath-lab1-tumblr */,
 				108748811E41713A00BF29A0 /* Products */,
 				73A4974045681BB476DE9748 /* Pods */,
@@ -65,6 +70,7 @@
 			children = (
 				108748831E41713A00BF29A0 /* AppDelegate.swift */,
 				108748871E41713A00BF29A0 /* Main.storyboard */,
+				102175681E4AA555001F426A /* PhotoDetailsViewController.swift */,
 				1087488A1E41713A00BF29A0 /* Assets.xcassets */,
 				1087488C1E41713A00BF29A0 /* LaunchScreen.storyboard */,
 				1087488F1E41713A00BF29A0 /* Info.plist */,
@@ -214,6 +220,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1021756B1E4ABC49001F426A /* InfiniteScrollActivityView.swift in Sources */,
+				102175691E4AA555001F426A /* PhotoDetailsViewController.swift in Sources */,
 				108748841E41713A00BF29A0 /* AppDelegate.swift in Sources */,
 				108748981E4176F200BF29A0 /* PhotoCell.swift in Sources */,
 				108748961E4172D300BF29A0 /* PhotosViewController.swift in Sources */,
